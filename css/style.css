@@ -1,0 +1,103 @@
+/*----------- media row classes ---------------*/
+.logo {
+  padding-top: 20px;
+  height: 130px;
+  width: 130px;
+}
+.myName {
+  color:#989692;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  margin-top: 15px;
+}
+
+/*----------- First row classes ---------------*/
+
+.hrLine {
+  border: 3px solid #989692;
+}
+
+/*----------- second row classes ---------------*/
+
+.feature {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color:#989692;
+  font-size: 50px;
+  padding-left: 10px;
+  margin: 40px 0 15px;
+}
+/*----------- third row classes ---------------*/
+
+.Work{
+  font-size: 50px;
+  color:#979390;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+}
+
+
+/*----------- Tablet: Apple iPad = 768x1024 -------------- */
+@media screen and (max-width: 1024px) {
+   .container {
+    margin: 0;
+   }
+   .middle {
+    text-align: center;
+   }
+   .col-md-4{
+	   margin:0 50px 0 50px;
+   }
+}
+@media screen and (max-width: 670px) {
+    .myName {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 583px ) {
+    .myName {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 583px ) and (min-width: 359px ){
+    .myName {
+    font-size: 25px;
+   }
+    .Ninja{
+    font-size: 20px;
+   }
+    .feature {
+    font-size: 35px;
+  }
+  .logo {
+    height: 100px;
+    width: 80px;
+  }
+}
+/*Mobile: Google Nexus 5 = 360x640*/
+@media screen and (max-width: 360px) {
+  .myName{
+    font-size: 20px;
+  }
+  .feature {
+    font-size: 30px;
+  }
+  .logo {
+    height: 80px;
+    width: 60px;
+  }
+  .Ninja{
+    font-size: 15px;
+   }
+   .Work{
+    font-size: 20px;
+   }
+   .atext{
+	font-size: 12px;
+	
+   }
+   .col-md-4{
+	   margin:0 20px 0 20px;
+   }
+}
