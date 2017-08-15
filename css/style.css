@@ -4,12 +4,17 @@
   height: 130px;
   width: 130px;
 }
-.myName {
+
+.my-name {
   color:#989692;
   font-size: 55px;
   font-weight: bold;
   font-family: 'Poiret One', cursive;
   margin-top: 15px;
+}
+
+.media{
+  margin: 10px 70px 0 70px;
 }
 
 /*----------- First row classes ---------------*/
@@ -28,6 +33,7 @@
   padding-left: 10px;
   margin: 40px 0 15px;
 }
+
 /*----------- third row classes ---------------*/
 
 .Work{
@@ -40,44 +46,48 @@
 
 /*----------- Tablet: Apple iPad = 768x1024 -------------- */
 @media screen and (max-width: 1024px) {
-   .container {
-    margin: 0;
-   }
-   .middle {
-    text-align: center;
-   }
-   .col-md-4{
-	   margin:0 50px 0 50px;
-   }
+ .middle {
+  text-align: center;
 }
-@media screen and (max-width: 670px) {
-    .myName {
+.media{
+ margin: 10px 130px 0 130px;
+}
+.col-md-4{
+ margin:0 50px 0 50px;
+}
+}
+
+@media screen and (max-width: 870px) {
+  .my-name {
     font-size: 45px;
   }
-}
-@media screen and (max-width: 583px ) {
-    .myName {
-    font-size: 35px;
+  .media{
+    margin: 10px 50px 0 50px;
   }
 }
+
 @media screen and (max-width: 583px ) and (min-width: 359px ){
-    .myName {
+  .my-mame {
     font-size: 25px;
-   }
-    .Ninja{
+  }
+  .Ninja{
     font-size: 20px;
-   }
-    .feature {
+  }
+  .feature {
     font-size: 35px;
   }
   .logo {
     height: 100px;
     width: 80px;
   }
+  .media{
+   margin: 10px 20px 0 20px;
+ }
 }
+
 /*Mobile: Google Nexus 5 = 360x640*/
 @media screen and (max-width: 360px) {
-  .myName{
+  .my-name{
     font-size: 20px;
   }
   .feature {
@@ -89,15 +99,18 @@
   }
   .Ninja{
     font-size: 15px;
-   }
-   .Work{
+  }
+  .Work{
     font-size: 20px;
-   }
-   .atext{
-	font-size: 12px;
-	
-   }
-   .col-md-4{
-	   margin:0 20px 0 20px;
-   }
+  }
+  .atext{
+   font-size: 12px;
+   
+ }
+ .col-md-4{
+  margin:0 20px 0 20px;
+}
+.media{
+ margin: 5px 15px 0 15px;
+}
 }
