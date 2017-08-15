@@ -6,29 +6,29 @@
 }
 
 .my-name {
-  color:#989692;
+  color: #989692;
   font-size: 55px;
   font-weight: bold;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   margin-top: 15px;
 }
 
-.media{
+.media {
   margin: 10px 70px 0 70px;
 }
 
 /*----------- First row classes ---------------*/
 
-.hrLine {
+.hr-line {
   border: 3px solid #989692;
 }
 
 /*----------- second row classes ---------------*/
 
 .feature {
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-weight: bold;
-  color:#989692;
+  color: #989692;
   font-size: 50px;
   padding-left: 10px;
   margin: 40px 0 15px;
@@ -36,81 +36,90 @@
 
 /*----------- third row classes ---------------*/
 
-.Work{
+.work {
   font-size: 50px;
-  color:#979390;
+  color: #979390;
   font-weight: bold;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 
 /*----------- Tablet: Apple iPad = 768x1024 -------------- */
 @media screen and (max-width: 1024px) {
- .middle {
-  text-align: center;
-}
-.media{
- margin: 10px 130px 0 130px;
-}
-.col-md-4{
- margin:0 50px 0 50px;
-}
+  .middle {
+    text-align: center;
+  }
+
+  .media {
+    margin: 10px 20px 0 20px;
+  }
+
+  .col-md-4 {
+    margin: 0 50px 0 50px;
+  }
 }
 
 @media screen and (max-width: 870px) {
   .my-name {
     font-size: 45px;
   }
-  .media{
-    margin: 10px 50px 0 50px;
+
+  .media {
+    margin: 10px 20px 0 20px;
   }
 }
 
-@media screen and (max-width: 583px ) and (min-width: 359px ){
+@media screen and (max-width: 583px ) and (min-width: 359px ) {
   .my-mame {
     font-size: 25px;
   }
-  .Ninja{
+
+  .Ninja {
     font-size: 20px;
   }
+
   .feature {
     font-size: 35px;
   }
+
   .logo {
     height: 100px;
     width: 80px;
   }
-  .media{
-   margin: 10px 20px 0 20px;
- }
 }
 
 /*Mobile: Google Nexus 5 = 360x640*/
 @media screen and (max-width: 360px) {
-  .my-name{
+  .my-name {
     font-size: 20px;
   }
+
   .feature {
     font-size: 30px;
   }
+
   .logo {
     height: 80px;
     width: 60px;
   }
-  .Ninja{
+
+  .ninja {
     font-size: 15px;
   }
-  .Work{
+
+  .work {
     font-size: 20px;
   }
-  .atext{
-   font-size: 12px;
-   
- }
- .col-md-4{
-  margin:0 20px 0 20px;
-}
-.media{
- margin: 5px 15px 0 15px;
-}
+
+  .atext {
+    font-size: 12px;
+  }
+
+  .col-md-4 {
+    margin: 0 20px 0 20px;
+  }
+
+  .media {
+    margin: 5px 15px 0 15px;
+  }
 }
